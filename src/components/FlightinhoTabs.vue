@@ -22,7 +22,7 @@ const ActiveComponent = computed<Component>(() => {
 <template>
   <div class="page">
     <header class="header">
-      <h1>Flightly</h1>
+      <h1>Flightinho</h1>
 
       <nav class="tab-buttons">
         <button
