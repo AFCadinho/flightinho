@@ -24,6 +24,12 @@ function removeFlight(index: number, flightId: string) {
   const airport = airports[index]
   airport.flights = airport.flights.filter(f => f.id !== flightId)
 }
+
+function availableDestinations(originId: string) {
+  return airports.filter((a) => {
+    return a.id !== originId
+  })
+}
 </script>
 
 <template>
@@ -62,9 +68,11 @@ function removeFlight(index: number, flightId: string) {
             <div v-for="f in airports[index].flights" :key="f.id" class="flight-row">
               <strong class="flight-code">{{ f.id }}</strong>
 
-              <AirportSelector :airports="airports" v-model="f.destinationAirportId" />
-
+              <label class="lab">Airport</label>
+              <AirportSelector :airports="availableDestinations(airports[index].id)" v-model="f.destinationAirportId" />
+              <label class="lab">Adult Price</label>
               <input type="number" min="0" step="1" v-model.number="f.adultPrice" placeholder="Adult Price" />
+              <label class="lab">Child Price</label>
               <input type="number" min="0" step="1" v-model.number="f.childPrice" placeholder="Child Price" />
 
               <div class="row-actions">

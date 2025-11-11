@@ -188,6 +188,8 @@ label {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   overflow: hidden;
+
+  table-layout: fixed;
 }
 
 .flights-table thead th {
