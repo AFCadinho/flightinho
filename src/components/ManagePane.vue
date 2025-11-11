@@ -4,7 +4,7 @@ import AirportSelector from '@/components/AirportSelector.vue'
 import ListDetail from '@/components/ListDetail.vue'
 import FlightlyCard from '@/components/FlightinhoCard.vue'
 import ActionButton from '@/components/ActionButton.vue'
-import type { Airport, Flight } from '@/types/flightly'
+import type { Airport, Flight } from '@/types/flightinho'
 
 const airports = inject<Airport[]>('airports', () => [], true)
 

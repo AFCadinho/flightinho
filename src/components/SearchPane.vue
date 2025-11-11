@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, inject, computed } from 'vue'
 import AirportSelector from '@/components/AirportSelector.vue'
-import type { Airport, Result } from '@/types/flightly'
+import type { Airport, Result } from '@/types/flightinho'
 
 // Get the airports list that App.vue provided
 const airports = inject<Airport[]>('airports', () => [], true)

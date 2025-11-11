@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Airport } from '@/types/flightly'
+import type { Airport } from '@/types/flightinho'
 
 defineProps<{
   airports: Airport[]

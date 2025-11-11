@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive, provide } from 'vue'
-import type { Airport } from '@/types/flightly';
+import type { Airport } from '@/types/flightinho';
 import exampleData from '@/example_data.ts'
 import FlightlyTabs from '@/components/FlightinhoTabs.vue';
 import SearchPane from '@/components/SearchPane.vue';

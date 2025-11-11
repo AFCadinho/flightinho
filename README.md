@@ -1,59 +1,51 @@
-# flightinho
+# 🛫 Flightinho
 
-This template should help get you started developing with Vue 3 in Vite.
+A fun little Vue 3 project by **Adinho** — built to manage and explore flights in a clean, modern interface.  
+It started as a school assignment, but grew into something pretty cool 😎
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## ✨ Features
+- Built with **Vue 3 (Composition API)** and **TypeScript**
+- Reusable components like `ActionButton`, `ListDetail`, and `FlightinhoCard`
+- Scoped styling to keep each component clean and modular
+- Reactive airport and flight management
+- Dynamic slots for flexible layouts
+- Fully responsive design (works on desktop and mobile)
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🚀 Getting Started
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+Install dependencies:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+Start the dev server:
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+Build for production:
+```bash
 npm run build
 ```
 
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
+---
 
-```sh
-# Install browsers for the first run
-npx playwright install
+## 🧱 Tech Stack
+- **Vue 3 + Vite**
+- **TypeScript**
+- **Composition API**
+- **Scoped CSS**
 
-# When testing on CI, must build the project first
-npm run build
+---
 
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
+## 💡 About
+This project shows how to structure a Vue app with clean component logic, dynamic slots, and reactive data flow.  
+Created as part of a school project, but refined into something portfolio-worthy ✈️
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
-# flightinho
+Made with ❤️ by **Adinho**
